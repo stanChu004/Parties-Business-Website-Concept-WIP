@@ -1,0 +1,307 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #202020;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2; /* Ensure the nav bar is on top of the background */
+}
+
+.hero-section {
+    background-image: url('hero-section-background.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    height: 700px;
+    width: 100%;
+    margin-top: -100px;
+    position: relative; /* Ensure proper stacking of elements */
+}
+
+.hero-section-img {
+    max-width: 50%;
+    width: 40%;
+    float: right;
+    margin-top: -332px;
+    position: static;
+    mix-blend-mode: hard-light;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 80px;
+}
+
+a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #ca0141;
+}
+
+nav {
+    margin-top: 40px;
+}
+
+h1 {
+    margin-left: 80px;
+    padding-top: 200px;
+    max-width: 500px;
+    font-size: 40px;
+}
+
+.beyond-reality {
+    color: #ca0141;
+}
+
+.first-paragraph {
+    margin-left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+button {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.CTA {
+    border-style: none;
+    background-color: #ca0141;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.SCND-OPTION {
+    border-style: none;
+    background-color: #660020;
+    color: #27000c;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.CTA:hover {
+    background-color: #ff0051;
+    width: 160px;
+    height: 46px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.SCND-OPTION:hover {
+    background-color: #ff0051;
+    color: white;
+    width: 160px;
+    height: 46px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.first-brake {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #ca0141;
+    overflow: hidden; /* Hide overflow to hide text exceeding section bounds */
+}
+
+
+
+.party-section {
+    background-image: linear-gradient(#202020, #000000);
+    height: 700px;
+}
+
+.party-section-image {
+    max-width: 66%;
+    width: 60%;
+    float: right;
+    margin-top: -750px;
+    position: static;
+    mix-blend-mode: difference;
+}
+
+h2 {
+    margin-left: 80px;
+    padding-top: 190px;
+    max-width: 550px;
+    font-size: 40px;
+}
+
+.second-paragraph {
+    margin-left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.tickets-button {
+    border-style: none;
+    background-color: #ca0141;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.tickets-button:hover {
+    background-color: #ff0051;
+    width: 160px;
+    height: 46px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.meet-dj {
+    border-style: none;
+    background-color: #700024;
+    color: #2c000e;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 35px;
+}
+
+.meet-dj:hover {
+    background-color: #ff0051;
+    width: 160px;
+    height: 46px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+
+.purple-title-tickets {
+    color: #ca0141;
+}
+
+
+
+.party-section {
+background-image: url('hero-section-background.png');
+background-size: cover;
+background-position: center;
+color: white;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: darken;
+height: 700px;
+width: 100%;
+margin-top: -70px;
+position: relative; /* Ensure proper stacking of elements */
+
+}
+
+
+/* ABOUT SECTION */
+
+
+.about-categories {
+
+display: flex;
+margin-left: 70px;
+margin-top: 70px;
+
+
+}
+
+
+.about-headline {
+    
+    padding-top: 40px;
+    margin-left: 80px;
+    max-width: 500px;
+    font-size: 40px;
+
+}
+
+.about-paragraph {
+
+    margin-left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+
+.about-wordbreak {
+
+    color: #ca0141;
+
+}
+
+.meet-the-dj {
+
+height: 600px;
+width: 300px;
+mix-blend-mode:multiply;
+
+}
+
+
+.last-parties {
+
+    height: 600px;
+    width: 300px;
+    mix-blend-mode:multiply;
+
+}
+
+.meet-the-team {
+
+    height: 600px;
+    width: 300px;
+    mix-blend-mode:multiply;
+
+
+}
+
+
+.meet-the-dj:hover {
+
+    height: 605px;
+    width: 305px;
+    mix-blend-mode:normal;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+    }
+    
+    
+    .last-parties:hover {
+    
+        height: 605px;
+        width: 305px;
+        mix-blend-mode:normal;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+    
+    }
+    
+    .meet-the-team:hover {
+    
+        height: 605px;
+        width: 305px;
+        mix-blend-mode:normal;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+
+    }
